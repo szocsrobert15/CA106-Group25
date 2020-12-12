@@ -1,0 +1,88 @@
+/* START OF MAIN IMAGE*/
+.main-image{
+    height: 800px;
+    width: 100%;
+    background-image: url("../images/esports.jpg");
+}
+
+.image-text{
+    color: white;
+    float: right;
+    margin: 10px;
+    padding:1%;
+    border-radius: 5px;
+    background-color: #3B2C55;
+}
+/* END OF MAIN IMAGE */
+
+/* START OF GAMES */
+#images{
+  background-color: #EFE4FA;
+  margin-top: 5px;
+}
+
+h2{
+  font-family: Righteous;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.gallery img{
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.gallery{
+  display: flex;
+  justify-content: center; 
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin: 10px 30px 20px 30px;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top:0;                 
+  left: 0;
+  opacity: 0;
+  transition:all .3s ease;
+  background-color: #3B2C55;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.overlay p{ 
+  color: white;
+  font-size: 1vw;
+  position: relative;
+  text-align: center;
+  word-wrap: break-word;
+  padding: 0 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-container:hover .overlay{
+  opacity: 0.975;
+}
+
+.learn-more{
+  background-color: grey;
+  width: 50%;
+  padding: 1%;
+}
+
+.overlay a{
+  text-decoration: none;
+}
+
+/* END OF GAMES */
