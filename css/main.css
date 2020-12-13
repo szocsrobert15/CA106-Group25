@@ -61,7 +61,7 @@ h2{
 
 .overlay p{ 
   color: white;
-  font-size: 1vw;
+  font-size: 0.9vw;
   position: relative;
   text-align: center;
   word-wrap: break-word;
@@ -79,6 +79,7 @@ h2{
   background-color: grey;
   width: 50%;
   padding: 1%;
+  border-radius: 10px;
 }
 
 .overlay a{
