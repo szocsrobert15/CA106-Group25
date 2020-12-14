@@ -42,7 +42,7 @@ ul {
     margin: 0 3%;
   }
   
-  li a, .button {
+  li a {
     display: inline-block;
     color: white;
     text-align: center;
