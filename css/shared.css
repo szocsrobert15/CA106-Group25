@@ -79,6 +79,10 @@ ul {
   }
   /* END OF NAV BAR*/
 
+/* SECTIONS */
+section{
+    background-color: #EFE4FA;
+}
 
   /* FOOTER START */
 footer {
